@@ -1,0 +1,656 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+Acceleration	plugins/adjoint.py	/^def Acceleration(syn, obs, nt, dt):$/;"	f
+Acceleration	plugins/misfit.py	/^def Acceleration(syn, obs, nt, dt):$/;"	f
+Amplitude	plugins/adjoint.py	/^def Amplitude(syn, obs, nt, dt):$/;"	f
+Amplitude	plugins/misfit.py	/^def Amplitude(syn, obs, nt, dt):$/;"	f
+Backtrack	plugins/line_search/backtrack.py	/^class Backtrack(Bracket):$/;"	c
+Base	plugins/line_search/base.py	/^class Base(object):$/;"	c
+Bracket	plugins/line_search/bracket.py	/^class Bracket(Base):$/;"	c
+Diagonal	plugins/preconds/diagonal.py	/^class Diagonal(object):$/;"	c
+Dict	config.py	/^class Dict(object):$/;"	c
+Dispersion	plugins/adjoint.py	/^def Dispersion(syn, obs, nt, dt):$/;"	f
+Dispersion	plugins/misfit.py	/^def Dispersion(disp_obs, disp_syn, nt, dt):$/;"	f
+Displacement	plugins/adjoint.py	/^def Displacement(syn, obs, nt, dt):$/;"	f
+Displacement	plugins/misfit.py	/^def Displacement(syn, obs, nt, dt):$/;"	f
+DotProductLHS	workflow/test_adjoint.py	/^def DotProductLHS(keys, x, y):$/;"	f
+DotProductRHS	workflow/test_adjoint.py	/^def DotProductRHS(keys, x, y):$/;"	f
+Envelope	plugins/adjoint.py	/^def Envelope(syn, obs, nt, dt, eps=0.05):$/;"	f
+Envelope	plugins/misfit.py	/^def Envelope(syn, obs, nt, dt, eps=0.05):$/;"	f
+Envelope2	plugins/adjoint.py	/^def Envelope2(syn, obs, nt, dt, eps=0.):$/;"	f
+Envelope2	plugins/misfit.py	/^def Envelope2(syn, obs, nt, dt, eps=0.):$/;"	f
+Envelope3	plugins/adjoint.py	/^def Envelope3(syn, obs, nt, dt, eps=0.):$/;"	f
+Envelope3	plugins/misfit.py	/^def Envelope3(syn, obs, nt, dt, eps=0.):$/;"	f
+InstantaneousPhase	plugins/adjoint.py	/^def InstantaneousPhase(syn, obs, nt, dt, eps=0.05):$/;"	f
+InstantaneousPhase	plugins/misfit.py	/^def InstantaneousPhase(syn, obs, nt, dt, eps=0.05):$/;"	f
+InstantaneousPhase2	plugins/adjoint.py	/^def InstantaneousPhase2(syn, obs, nt, dt, eps=0.):$/;"	f
+InstantaneousPhase2	plugins/misfit.py	/^def InstantaneousPhase2(syn, obs, nt, dt, eps=0.):$/;"	f
+LBFGS	optimize/LBFGS.py	/^class LBFGS(custom_import('optimize', 'base')):$/;"	c
+LBFGS	plugins/optimize/LBFGS.py	/^class LBFGS(object):$/;"	c
+LBFGS_	plugins/optimize/PLCG.py	/^class LBFGS_(LBFGS):$/;"	c
+LCG	plugins/optimize/LCG.py	/^class LCG(object):$/;"	c
+Minmax	tools/seismic.py	/^class Minmax(defaultdict):$/;"	c
+ModelDict	tools/seismic.py	/^class ModelDict(defaultdict):$/;"	c
+NLCG	optimize/NLCG.py	/^class NLCG(custom_import('optimize', 'base')):$/;"	c
+NLCG	plugins/optimize/NLCG.py	/^class NLCG:$/;"	c
+Null	config.py	/^class Null(object):$/;"	c
+PAR	optimize/LBFGS.py	/^PAR = sys.modules['seisflows_parameters']$/;"	v
+PAR	optimize/NLCG.py	/^PAR = sys.modules['seisflows_parameters']$/;"	v
+PAR	optimize/base.py	/^PAR = sys.modules['seisflows_parameters']$/;"	v
+PAR	optimize/steepest_descent.py	/^PAR = sys.modules['seisflows_parameters']$/;"	v
+PAR	postprocess/base.py	/^PAR = sys.modules['seisflows_parameters']$/;"	v
+PAR	postprocess/default.py	/^PAR = sys.modules['seisflows_parameters']$/;"	v
+PAR	preprocess/base.py	/^PAR = sys.modules['seisflows_parameters']$/;"	v
+PAR	preprocess/default.py	/^PAR = sys.modules['seisflows_parameters']$/;"	v
+PAR	preprocess/double_difference.py	/^PAR = sys.modules['seisflows_parameters']$/;"	v
+PAR	solver/base.py	/^PAR = sys.modules['seisflows_parameters']$/;"	v
+PAR	solver/specfem2d.py	/^PAR = sys.modules['seisflows_parameters']$/;"	v
+PAR	solver/specfem3d.py	/^PAR = sys.modules['seisflows_parameters']$/;"	v
+PAR	solver/specfem3d_globe.py	/^PAR = sys.modules['seisflows_parameters']$/;"	v
+PAR	system/lsf_lg.py	/^PAR = sys.modules['seisflows_parameters']$/;"	v
+PAR	system/multicore.py	/^PAR = sys.modules['seisflows_parameters']$/;"	v
+PAR	system/multithreaded.py	/^PAR = sys.modules['seisflows_parameters']$/;"	v
+PAR	system/pbs_lg.py	/^PAR = sys.modules['seisflows_parameters']$/;"	v
+PAR	system/pbs_sm.py	/^PAR = sys.modules['seisflows_parameters']$/;"	v
+PAR	system/serial.py	/^PAR = sys.modules['seisflows_parameters']$/;"	v
+PAR	system/slurm_lg.py	/^PAR = sys.modules['seisflows_parameters']$/;"	v
+PAR	system/slurm_sm.py	/^PAR = sys.modules['seisflows_parameters']$/;"	v
+PAR	system/tiger_lg.py	/^PAR = sys.modules['seisflows_parameters']$/;"	v
+PAR	system/tiger_sm.py	/^PAR = sys.modules['seisflows_parameters']$/;"	v
+PAR	workflow/inversion.py	/^PAR = sys.modules['seisflows_parameters']$/;"	v
+PAR	workflow/migration.py	/^PAR = sys.modules['seisflows_parameters']$/;"	v
+PAR	workflow/test_adjoint.py	/^PAR = sys.modules['seisflows_parameters']$/;"	v
+PAR	workflow/test_forward.py	/^PAR = sys.modules['seisflows_parameters']$/;"	v
+PAR	workflow/test_optimize.py	/^PAR = sys.modules['seisflows_parameters']$/;"	v
+PAR	workflow/test_postprocess.py	/^PAR = sys.modules['seisflows_parameters']$/;"	v
+PAR	workflow/test_preprocess.py	/^PAR = sys.modules['seisflows_parameters']$/;"	v
+PAR	workflow/test_system.py	/^PAR = sys.modules['seisflows_parameters']$/;"	v
+PAR	workflow/thrifty_inversion.py	/^PAR = sys.modules['seisflows_parameters']$/;"	v
+PATH	optimize/LBFGS.py	/^PATH = sys.modules['seisflows_paths']$/;"	v
+PATH	optimize/NLCG.py	/^PATH = sys.modules['seisflows_paths']$/;"	v
+PATH	optimize/base.py	/^PATH = sys.modules['seisflows_paths']$/;"	v
+PATH	optimize/steepest_descent.py	/^PATH = sys.modules['seisflows_paths']$/;"	v
+PATH	postprocess/base.py	/^PATH = sys.modules['seisflows_paths']$/;"	v
+PATH	postprocess/default.py	/^PATH = sys.modules['seisflows_paths']$/;"	v
+PATH	preprocess/base.py	/^PATH = sys.modules['seisflows_paths']$/;"	v
+PATH	preprocess/default.py	/^PATH = sys.modules['seisflows_paths']$/;"	v
+PATH	preprocess/double_difference.py	/^PATH = sys.modules['seisflows_paths']$/;"	v
+PATH	solver/base.py	/^PATH = sys.modules['seisflows_paths']$/;"	v
+PATH	solver/specfem2d.py	/^PATH = sys.modules['seisflows_paths']$/;"	v
+PATH	solver/specfem3d.py	/^PATH = sys.modules['seisflows_paths']$/;"	v
+PATH	solver/specfem3d_globe.py	/^PATH = sys.modules['seisflows_paths']$/;"	v
+PATH	system/lsf_lg.py	/^PATH = sys.modules['seisflows_paths']$/;"	v
+PATH	system/multicore.py	/^PATH = sys.modules['seisflows_paths']$/;"	v
+PATH	system/multithreaded.py	/^PATH = sys.modules['seisflows_paths']$/;"	v
+PATH	system/pbs_lg.py	/^PATH = sys.modules['seisflows_paths']$/;"	v
+PATH	system/pbs_sm.py	/^PATH = sys.modules['seisflows_paths']$/;"	v
+PATH	system/serial.py	/^PATH = sys.modules['seisflows_paths']$/;"	v
+PATH	system/slurm_lg.py	/^PATH = sys.modules['seisflows_paths']$/;"	v
+PATH	system/slurm_sm.py	/^PATH = sys.modules['seisflows_paths']$/;"	v
+PATH	system/tiger_lg.py	/^PATH = sys.modules['seisflows_paths']$/;"	v
+PATH	system/tiger_sm.py	/^PATH = sys.modules['seisflows_paths']$/;"	v
+PATH	workflow/inversion.py	/^PATH = sys.modules['seisflows_paths']$/;"	v
+PATH	workflow/migration.py	/^PATH = sys.modules['seisflows_paths']$/;"	v
+PATH	workflow/test_adjoint.py	/^PATH = sys.modules['seisflows_paths']$/;"	v
+PATH	workflow/test_forward.py	/^PATH = sys.modules['seisflows_paths']$/;"	v
+PATH	workflow/test_optimize.py	/^PATH = sys.modules['seisflows_paths']$/;"	v
+PATH	workflow/test_postprocess.py	/^PATH = sys.modules['seisflows_paths']$/;"	v
+PATH	workflow/test_preprocess.py	/^PATH = sys.modules['seisflows_paths']$/;"	v
+PATH	workflow/test_system.py	/^PATH = sys.modules['seisflows_paths']$/;"	v
+PATH	workflow/thrifty_inversion.py	/^PATH = sys.modules['seisflows_paths']$/;"	v
+PLCG	plugins/optimize/PLCG.py	/^class PLCG(LCG):$/;"	c
+ParameterError	tools/err.py	/^class ParameterError(ValueError):$/;"	c
+StepWriter	tools/seismic.py	/^class StepWriter(object):$/;"	c
+Struct	tools/tools.py	/^class Struct(dict):$/;"	c
+Traveltime	plugins/adjoint.py	/^def Traveltime(syn, obs, nt, dt):$/;"	f
+Traveltime	plugins/misfit.py	/^def Traveltime(syn, obs, nt, dt):$/;"	f
+TraveltimeInexact	plugins/adjoint.py	/^def TraveltimeInexact(syn, obs, nt, dt):$/;"	f
+TraveltimeInexact	plugins/misfit.py	/^def TraveltimeInexact(syn, obs, nt, dt):$/;"	f
+Velocity	plugins/adjoint.py	/^def Velocity(syn, obs, nt, dt):$/;"	f
+Velocity	plugins/misfit.py	/^def Velocity(syn, obs, nt, dt):$/;"	f
+Waveform	plugins/adjoint.py	/^def Waveform(syn, obs, nt, dt):$/;"	f
+Waveform	plugins/misfit.py	/^def Waveform(syn, obs, nt, dt):$/;"	f
+Writer	tools/seismic.py	/^class Writer(object):$/;"	c
+__call__	config.py	/^    def __call__(self, *args, **kwargs):$/;"	m	class:Null	file:
+__call__	plugins/optimize/LBFGS.py	/^    def __call__(self):$/;"	m	class:LBFGS	file:
+__call__	plugins/optimize/NLCG.py	/^    def __call__(self):$/;"	m	class:NLCG	file:
+__call__	plugins/preconds/diagonal.py	/^    def __call__(self, q):$/;"	m	class:Diagonal	file:
+__call__	tools/seismic.py	/^    def __call__(self, filename, val):$/;"	m	class:Writer	file:
+__call__	tools/seismic.py	/^    def __call__(self, key):$/;"	m	class:Minmax	file:
+__call__	tools/seismic.py	/^    def __call__(self, steplen=None, funcval=None):$/;"	m	class:StepWriter	file:
+__delattr__	config.py	/^    def __delattr__(self, key):$/;"	m	class:Dict	file:
+__delattr__	config.py	/^    def __delattr__(self, key):$/;"	m	class:Null	file:
+__getattr__	config.py	/^    def __getattr__(self, key):$/;"	m	class:Dict	file:
+__getattr__	config.py	/^    def __getattr__(self, key):$/;"	m	class:Null	file:
+__getitem__	config.py	/^    def __getitem__(self, key):$/;"	m	class:Dict	file:
+__init__	config.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:Null
+__init__	config.py	/^    def __init__(self, newdict):$/;"	m	class:Dict
+__init__	plugins/line_search/base.py	/^    def __init__(self,$/;"	m	class:Base
+__init__	plugins/optimize/LBFGS.py	/^    def __init__(self, path='.', load=loadnpy, save=savenpy, memory=5, thresh=0., maxiter=np.inf, precond=None):$/;"	m	class:LBFGS
+__init__	plugins/optimize/LCG.py	/^    def __init__(self, path, load=loadnpy, save=savenpy, thresh=np.inf, maxiter=np.inf, precond=None):$/;"	m	class:LCG
+__init__	plugins/optimize/NLCG.py	/^    def __init__(self, path='.', load=loadnpy, save=savenpy, thresh=1., maxiter=np.inf, precond=None):$/;"	m	class:NLCG
+__init__	plugins/optimize/PLCG.py	/^    def __init__(self, path, eta=1., **kwargs):$/;"	m	class:PLCG
+__init__	plugins/preconds/diagonal.py	/^    def __init__(self):$/;"	m	class:Diagonal
+__init__	tools/err.py	/^    def __init__(self, *args):$/;"	m	class:ParameterError
+__init__	tools/seismic.py	/^    def __init__(self):$/;"	m	class:Minmax
+__init__	tools/seismic.py	/^    def __init__(self):$/;"	m	class:ModelDict
+__init__	tools/seismic.py	/^    def __init__(self, path='.\/output.optim'):$/;"	m	class:StepWriter
+__init__	tools/seismic.py	/^    def __init__(self, path='.\/output.stat'):$/;"	m	class:Writer
+__init__	tools/tools.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:Struct
+__iter__	config.py	/^    def __iter__(self):$/;"	m	class:Dict	file:
+__nonzero__	config.py	/^    def __nonzero__(self):$/;"	m	class:Null	file:
+__path__	__init__.py	/^__path__ = extend_path(__path__, __name__)$/;"	v
+__path__	optimize/__init__.py	/^__path__ = extend_path(__path__, __name__)$/;"	v
+__path__	plugins/__init__.py	/^__path__ = extend_path(__path__, __name__)$/;"	v
+__path__	postprocess/__init__.py	/^__path__ = extend_path(__path__, __name__)$/;"	v
+__path__	preprocess/__init__.py	/^__path__ = extend_path(__path__, __name__)$/;"	v
+__path__	solver/__init__.py	/^__path__ = extend_path(__path__, __name__)$/;"	v
+__path__	system/__init__.py	/^__path__ = extend_path(__path__, __name__)$/;"	v
+__path__	workflow/__init__.py	/^__path__ = extend_path(__path__, __name__)$/;"	v
+__setattr__	config.py	/^    def __setattr__(self, key, val):$/;"	m	class:Dict	file:
+__setattr__	config.py	/^    def __setattr__(self, key, val):$/;"	m	class:Null	file:
+_check_bracket	plugins/line_search/bracket.py	/^def _check_bracket(step_lens, func_vals):$/;"	f
+_check_decrease	plugins/line_search/backtrack.py	/^def _check_decrease(step_lens, func_vals, c=1.e-4):$/;"	f
+_convert_to_array	tools/graphics.py	/^def _convert_to_array(stream):$/;"	f
+_cscale	tools/graphics.py	/^def _cscale(v, clip=100):$/;"	f
+_done	plugins/optimize/PLCG.py	/^_done = 0$/;"	v
+_full	config.py	/^def _full(path):$/;"	f
+_gabor	plugins/wavelets.py	/^def _gabor(nt, dt, a, b):$/;"	f
+_gauss	plugins/wavelets.py	/^def _gauss(nt, dt, sigma):$/;"	f
+_get_offsets	tools/graphics.py	/^def _get_offsets(stream):$/;"	f
+_get_time	tools/graphics.py	/^def _get_time(stream):$/;"	f
+_good_enough	plugins/line_search/bracket.py	/^def _good_enough(step_lens, func_vals, thresh=np.log10(1.2)):$/;"	f
+_merge	tools/seismic.py	/^def _merge(*parts):$/;"	f
+_norm	plugins/optimize/PLCG.py	/^def _norm(v):$/;"	f
+_nproc1	tools/tools.py	/^def _nproc1():$/;"	f
+_nproc2	tools/tools.py	/^def _nproc2():$/;"	f
+_output	config.py	/^def _output():$/;"	f
+_par	config.py	/^def _par(key):$/;"	f
+_path	config.py	/^def _path(key):$/;"	f
+_pickle_method	config.py	/^def _pickle_method(method):$/;"	f
+_query	system/lsf_lg.py	/^    def _query(self, jobid):$/;"	m	class:lsf_lg
+_query	system/pbs_lg.py	/^    def _query(self, jobid):$/;"	m	class:pbs_lg
+_read	plugins/solver_io/fortran_binary.py	/^def _read(filename):$/;"	f
+_run_task	system/multicore.py	/^    def _run_task(self, classname, method, taskid=0):$/;"	m	class:multicore
+_split	tools/seismic.py	/^def _split(str, sep):$/;"	f
+_timestamp	system/pbs_lg.py	/^    def _timestamp(self):$/;"	m	class:pbs_lg
+_try	config.py	/^def _try(key):$/;"	f
+_unpickle_method	config.py	/^def _unpickle_method(func_name, obj, cls):$/;"	f
+_write	plugins/solver_io/fortran_binary.py	/^def _write(v, filename):$/;"	f
+_zip	tools/seismic.py	/^def _zip(keys, vals):$/;"	f
+adjoint	solver/base.py	/^    def adjoint(self):$/;"	m	class:base
+adjoint	solver/specfem2d.py	/^    def adjoint(self):$/;"	m	class:specfem2d
+adjoint	solver/specfem3d.py	/^    def adjoint(self):$/;"	m	class:specfem3d
+adjoint	solver/specfem3d_globe.py	/^    def adjoint(self):$/;"	m	class:specfem3d_globe
+adjoint_dd	preprocess/double_difference.py	/^    def adjoint_dd(self, si, sj, t0, nt, dt):$/;"	m	class:double_difference
+angle	tools/math.py	/^def angle(x,y):$/;"	f
+apply	plugins/optimize/LBFGS.py	/^    def apply(self, q, S=[], Y=[]):$/;"	m	class:LBFGS
+apply_filter	preprocess/base.py	/^    def apply_filter(self, traces):$/;"	m	class:base
+apply_filter_backwards	preprocess/base.py	/^    def apply_filter_backwards(self, traces):$/;"	m	class:base
+apply_hess	solver/base.py	/^    def apply_hess(self, path=''):$/;"	m	class:base
+apply_mute	preprocess/base.py	/^    def apply_mute(self, traces):$/;"	m	class:base
+apply_normalize	preprocess/base.py	/^    def apply_normalize(self, traces):$/;"	m	class:base
+apply_precond	plugins/optimize/LCG.py	/^    def apply_precond(self, r):$/;"	m	class:LCG
+apply_precond	plugins/optimize/PLCG.py	/^    def apply_precond(self, r):$/;"	m	class:PLCG
+apply_weights	preprocess/double_difference.py	/^    def apply_weights(self, traces):$/;"	m	class:double_difference
+ascii	plugins/readers.py	/^def ascii(path, filenames):$/;"	f
+ascii	plugins/writers.py	/^def ascii(stream, path, filenames):$/;"	f
+backtrack2	tools/math.py	/^def backtrack2(f0, g0, x1, f1, b1=0.1, b2=0.5):$/;"	f
+backtrack3	tools/math.py	/^def backtrack3(f0, g0, x1, f1, x2, f2):$/;"	f
+base	optimize/base.py	/^class base(object):$/;"	c
+base	postprocess/base.py	/^class base(object):$/;"	c
+base	preprocess/base.py	/^class base(object):$/;"	c
+base	solver/base.py	/^class base(object):$/;"	c
+base	system/base.py	/^class base(object):$/;"	c
+base	workflow/base.py	/^class base(object):$/;"	c
+calculate_step	plugins/line_search/backtrack.py	/^    def calculate_step(self):$/;"	m	class:Backtrack
+calculate_step	plugins/line_search/base.py	/^    def calculate_step(self):$/;"	m	class:Base
+calculate_step	plugins/line_search/bracket.py	/^    def calculate_step(self):$/;"	m	class:Bracket
+call	tools/tools.py	/^def call(*args, **kwargs):$/;"	f
+call_solver	tools/seismic.py	/^def call_solver(mpiexec, executable, output='solver.log'):$/;"	f
+cat	tools/unix.py	/^def cat(src, *dst):$/;"	f
+cd	tools/unix.py	/^def cd(path):$/;"	f
+check	optimize/LBFGS.py	/^    def check(self):$/;"	m	class:LBFGS
+check	optimize/NLCG.py	/^    def check(self):$/;"	m	class:NLCG
+check	optimize/base.py	/^    def check(self):$/;"	m	class:base
+check	optimize/steepest_descent.py	/^    def check(self):$/;"	m	class:steepest_descent
+check	postprocess/base.py	/^    def check(self):$/;"	m	class:base
+check	preprocess/base.py	/^    def check(self):$/;"	m	class:base
+check	preprocess/double_difference.py	/^    def check(self):$/;"	m	class:double_difference
+check	solver/base.py	/^    def check(self):$/;"	m	class:base
+check	solver/specfem2d.py	/^    def check(self):$/;"	m	class:specfem2d
+check	solver/specfem3d.py	/^    def check(self):$/;"	m	class:specfem3d
+check	solver/specfem3d_globe.py	/^    def check(self):$/;"	m	class:specfem3d_globe
+check	system/base.py	/^    def check(self):$/;"	m	class:base
+check	system/lsf_lg.py	/^    def check(self):$/;"	m	class:lsf_lg
+check	system/multicore.py	/^    def check(self):$/;"	m	class:multicore
+check	system/multithreaded.py	/^    def check(self):$/;"	m	class:multithreaded
+check	system/pbs_lg.py	/^    def check(self):$/;"	m	class:pbs_lg
+check	system/pbs_sm.py	/^    def check(self):$/;"	m	class:pbs_lg
+check	system/serial.py	/^    def check(self):$/;"	m	class:serial
+check	system/slurm_lg.py	/^    def check(self):$/;"	m	class:slurm_lg
+check	system/slurm_sm.py	/^    def check(self):$/;"	m	class:slurm_sm
+check	system/tiger_lg.py	/^    def check(self):$/;"	m	class:tiger_lg
+check	system/tiger_sm.py	/^    def check(self):$/;"	m	class:tiger_sm
+check	workflow/base.py	/^    def check(self):$/;"	m	class:base
+check	workflow/inversion.py	/^    def check(self):$/;"	m	class:inversion
+check	workflow/migration.py	/^    def check(self):$/;"	m	class:migration
+check	workflow/test_adjoint.py	/^    def check(self):$/;"	m	class:test_adjoint
+check	workflow/test_forward.py	/^    def check(self):$/;"	m	class:test_forward
+check	workflow/test_optimize.py	/^    def check(cls):$/;"	m	class:test_optimize
+check	workflow/test_postprocess.py	/^    def check(self):$/;"	m	class:test_postprocess
+check	workflow/test_preprocess.py	/^    def check(self):$/;"	m	class:test_preprocess
+check	workflow/test_system.py	/^    def check(self):$/;"	m	class:test_system
+check_conjugacy	plugins/optimize/NLCG.py	/^def check_conjugacy(g_new, g_old):$/;"	f
+check_descent	plugins/optimize/NLCG.py	/^def check_descent(p_new, g_new):$/;"	f
+check_dispersion	preprocess/base.py	/^    def check_dispersion(self):$/;"	m	class:base
+check_filter	preprocess/base.py	/^    def check_filter(self):$/;"	m	class:base
+check_mesh_properties	solver/base.py	/^    def check_mesh_properties(self, path=None):$/;"	m	class:base
+check_mesh_properties	solver/specfem3d_globe.py	/^    def check_mesh_properties(self, path=None, parameters=None):$/;"	m	class:specfem3d_globe
+check_mute	preprocess/base.py	/^    def check_mute(self):$/;"	m	class:base
+check_normalize	preprocess/base.py	/^    def check_normalize(self):$/;"	m	class:base
+check_solver_parameter_files	solver/base.py	/^    def check_solver_parameter_files(self):$/;"	m	class:base
+check_solver_parameter_files	solver/specfem2d.py	/^    def check_solver_parameter_files(self):$/;"	m	class:specfem2d
+check_solver_parameter_files	solver/specfem3d.py	/^    def check_solver_parameter_files(self):$/;"	m	class:specfem3d
+check_source_names	solver/base.py	/^    def check_source_names(self):$/;"	m	class:base
+check_status	plugins/optimize/LBFGS.py	/^    def check_status(self, g, r):$/;"	m	class:LBFGS
+check_status	plugins/optimize/LCG.py	/^    def check_status(self, *args, **kwargs):$/;"	m	class:LCG
+check_status	plugins/optimize/PLCG.py	/^    def check_status(self, ap, verbose=True):$/;"	m	class:PLCG
+checkpoint	system/base.py	/^    def checkpoint(self, path, classname, method, args, kwargs):$/;"	m	class:base
+checkpoint	workflow/base.py	/^    def checkpoint(self):$/;"	m	class:base
+checkpoint	workflow/inversion.py	/^    def checkpoint(self):$/;"	m	class:inversion
+clean	solver/base.py	/^    def clean(self):$/;"	m	class:base
+clean	workflow/inversion.py	/^    def clean(self):$/;"	m	class:inversion
+clean	workflow/thrifty_inversion.py	/^    def clean(self):$/;"	m	class:thrifty_inversion
+clear_history	plugins/line_search/base.py	/^    def clear_history(self):$/;"	m	class:Base
+combine	solver/base.py	/^    def combine(self, input_path='', output_path='', parameters=[]):$/;"	m	class:base
+compute_direction	optimize/LBFGS.py	/^    def compute_direction(self):$/;"	m	class:LBFGS
+compute_direction	optimize/NLCG.py	/^    def compute_direction(self):$/;"	m	class:NLCG
+compute_direction	optimize/base.py	/^    def compute_direction(self):$/;"	m	class:base
+compute_direction	optimize/steepest_descent.py	/^    def compute_direction(self):$/;"	m	class:steepest_descent
+compute_direction	workflow/inversion.py	/^    def compute_direction(self):$/;"	m	class:inversion
+compute_direction	workflow/test_optimize.py	/^    def compute_direction(cls):$/;"	m	class:test_optimize
+compute_direction_newton	workflow/test_optimize.py	/^    def compute_direction_newton(cls):$/;"	m	class:test_optimize
+config	config.py	/^def config():$/;"	f
+copy_slice	plugins/solver_io/fortran_binary.py	/^def copy_slice(src, dst, iproc, parameter):$/;"	f
+correlate	tools/signal.py	/^def correlate(u, v):$/;"	f
+count_zeros	tools/array.py	/^def count_zeros(a):$/;"	f
+cp	tools/unix.py	/^def cp(src='', dst=''):$/;"	f
+custom_import	config.py	/^def custom_import(*args):$/;"	f
+cwd	solver/base.py	/^    def cwd(self):$/;"	m	class:base
+data_filenames	solver/base.py	/^    def data_filenames(self):$/;"	m	class:base
+data_filenames	solver/specfem2d.py	/^    def data_filenames(self):$/;"	m	class:specfem2d
+data_filenames	solver/specfem3d.py	/^    def data_filenames(self):$/;"	m	class:specfem3d
+data_filenames	solver/specfem3d_globe.py	/^    def data_filenames(self):$/;"	m	class:specfem3d_globe
+data_wildcard	solver/specfem3d.py	/^    def data_wildcard(self):$/;"	m	class:specfem3d
+default	postprocess/default.py	/^class default(custom_import('postprocess', 'base')):$/;"	c
+default	preprocess/default.py	/^class default(custom_import('preprocess', 'base')):$/;"	c
+diff	tools/tools.py	/^def diff(list1, list2):$/;"	f
+distance	preprocess/double_difference.py	/^    def distance(self, x1, y1, x2, y2):$/;"	m	class:double_difference
+divides	tools/tools.py	/^def divides(i, j):$/;"	f
+dot	optimize/base.py	/^    def dot(self,x,y):$/;"	m	class:base
+dot	tools/math.py	/^def dot(x,y):$/;"	f
+double_difference	preprocess/double_difference.py	/^class double_difference(custom_import('preprocess', 'base')):$/;"	c
+eval_func	solver/base.py	/^    def eval_func(self, path='', export_traces=False, write_residuals=True):$/;"	m	class:base
+eval_func	solver/specfem3d.py	/^    def eval_func(self, *args, **kwargs):$/;"	m	class:specfem3d
+eval_grad	solver/base.py	/^    def eval_grad(self, path='', export_traces=False):$/;"	m	class:base
+evaluate_function	workflow/inversion.py	/^    def evaluate_function(self):$/;"	m	class:inversion
+evaluate_function	workflow/test_optimize.py	/^    def evaluate_function(cls):$/;"	m	class:test_optimize
+evaluate_gradient	workflow/inversion.py	/^    def evaluate_gradient(self):$/;"	m	class:inversion
+evaluate_gradient	workflow/test_optimize.py	/^    def evaluate_gradient(cls):$/;"	m	class:test_optimize
+event	workflow/test_adjoint.py	/^    def event(self):$/;"	m	class:test_adjoint
+exists	tools/tools.py	/^def exists(names):$/;"	f
+export	system/wrappers/run	/^def export(myenv):$/;"	f
+export_kernels	solver/base.py	/^    def export_kernels(self, path):$/;"	m	class:base
+export_model	solver/base.py	/^    def export_model(self, path, parameters=['rho', 'vp', 'vs']):$/;"	m	class:base
+export_model	solver/specfem2d.py	/^    def export_model(self, path):$/;"	m	class:specfem2d
+export_residuals	solver/base.py	/^    def export_residuals(self, path):$/;"	m	class:base
+export_traces	solver/base.py	/^    def export_traces(self, path, prefix='traces\/obs'):$/;"	m	class:base
+finalize	workflow/inversion.py	/^    def finalize(self):$/;"	m	class:inversion
+finalize	workflow/test_optimize.py	/^    def finalize(cls):$/;"	m	class:test_optimize
+finalize_search	optimize/base.py	/^    def finalize_search(self):$/;"	m	class:base
+findpath	tools/tools.py	/^def findpath(name):$/;"	f
+fletcher_reeves	plugins/optimize/NLCG.py	/^def fletcher_reeves(g_new, g_old, precond=lambda x : x):$/;"	f
+forward	solver/base.py	/^    def forward(self):$/;"	m	class:base
+forward	solver/specfem2d.py	/^    def forward(self, path='traces\/syn'):$/;"	m	class:specfem2d
+forward	solver/specfem3d.py	/^    def forward(self, path='traces\/syn'):$/;"	m	class:specfem3d
+forward	solver/specfem3d_globe.py	/^    def forward(self, path='traces\/syn'):$/;"	m	class:specfem3d_globe
+gabor	plugins/wavelets.py	/^def gabor(nt, df, fp):$/;"	f
+gauss2	tools/math.py	/^def gauss2(X, Y, mu, sigma, normalize=True):$/;"	f
+generate_data	solver/base.py	/^    def generate_data(self, *args, **kwargs):$/;"	m	class:base
+generate_data	solver/specfem2d.py	/^    def generate_data(self, **model_kwargs):$/;"	m	class:specfem2d
+generate_data	solver/specfem3d.py	/^    def generate_data(self, **model_kwargs):$/;"	m	class:specfem3d
+generate_data	solver/specfem3d_globe.py	/^    def generate_data(self, **model_kwargs):$/;"	m	class:specfem3d_globe
+generate_mesh	solver/base.py	/^    def generate_mesh(self, *args, **kwargs):$/;"	m	class:base
+generate_mesh	solver/specfem2d.py	/^    def generate_mesh(self, model_path=None, model_name=None, model_type='gll'):$/;"	m	class:specfem2d
+generate_mesh	solver/specfem3d.py	/^    def generate_mesh(self, model_path=None, model_name=None, model_type='gll'):$/;"	m	class:specfem3d
+generate_mesh	solver/specfem3d_globe.py	/^    def generate_mesh(self, model_path=None, model_name=None, model_type='gll'):$/;"	m	class:specfem3d_globe
+get_dispersion_curve	preprocess/base.py	/^    def get_dispersion_curve(self,path,data,nx,nfmin,df,nfmax,pmin,pcount,pmax,ratio):$/;"	m	class:base
+get_dispersion_para	preprocess/base.py	/^    def get_dispersion_para(self):$/;"	m	class:base
+get_dist	preprocess/base.py	/^    def get_dist(self,rx,rz,rx1,rz1):$/;"	m	class:base
+get_network_size	preprocess/base.py	/^    def get_network_size(self, traces):$/;"	m	class:base
+get_receiver_coords	preprocess/base.py	/^    def get_receiver_coords(self, traces):$/;"	m	class:base
+get_receiver_coords_new	preprocess/base.py	/^    def get_receiver_coords_new(self,path,nx):$/;"	m	class:base
+get_regular_ticks	tools/graphics.py	/^def get_regular_ticks(v, interval):$/;"	f
+get_source_coords	preprocess/base.py	/^    def get_source_coords(self, traces):$/;"	m	class:base
+get_source_coords_new	preprocess/base.py	/^    def get_source_coords_new(self, path):$/;"	m	class:base
+get_time_scheme	preprocess/base.py	/^    def get_time_scheme(self, traces):$/;"	m	class:base
+getpar	tools/seismic.py	/^def getpar(key, file='DATA\/Par_file', sep='=', cast=str):$/;"	f
+getset	tools/tools.py	/^def getset(arg):$/;"	f
+grad	tools/math.py	/^def grad(V, h=[]):$/;"	f
+grid2mesh	tools/array.py	/^def grid2mesh(V, grid, mesh):$/;"	f
+gridsmooth	tools/array.py	/^def gridsmooth(Z, span):$/;"	f
+hello	workflow/test_system.py	/^    def hello(self, msg='Hello from %d'):$/;"	m	class:test_system
+hilbert	tools/math.py	/^def hilbert(w):$/;"	f
+hostlist	system/pbs_sm.py	/^    def hostlist(self):$/;"	m	class:pbs_lg
+hostlist	system/slurm_sm.py	/^    def hostlist(self):$/;"	m	class:slurm_sm
+hostname	tools/unix.py	/^def hostname():$/;"	f
+import_model	solver/base.py	/^    def import_model(self, path):$/;"	m	class:base
+import_model	solver/specfem2d.py	/^    def import_model(self, path):$/;"	m	class:specfem2d
+import_traces	solver/base.py	/^    def import_traces(self, path):$/;"	m	class:base
+infinity	tools/math.py	/^infinity = np.inf$/;"	v
+initialize	plugins/line_search/base.py	/^    def initialize(self, step_len, func_val, gtg, gtp):$/;"	m	class:Base
+initialize	plugins/optimize/LCG.py	/^    def initialize(self):$/;"	m	class:LCG
+initialize	workflow/inversion.py	/^    def initialize(self):$/;"	m	class:inversion
+initialize	workflow/thrifty_inversion.py	/^    def initialize(self):$/;"	m	class:thrifty_inversion
+initialize_adjoint_traces	solver/base.py	/^    def initialize_adjoint_traces(self):$/;"	m	class:base
+initialize_adjoint_traces	solver/specfem2d.py	/^    def initialize_adjoint_traces(self):$/;"	m	class:specfem2d
+initialize_adjoint_traces	solver/specfem3d.py	/^    def initialize_adjoint_traces(self):$/;"	m	class:specfem3d
+initialize_adjoint_traces	solver/specfem3d_globe.py	/^    def initialize_adjoint_traces(self):$/;"	m	class:specfem3d_globe
+initialize_search	optimize/base.py	/^    def initialize_search(self):$/;"	m	class:base
+initialize_solver_directories	solver/base.py	/^    def initialize_solver_directories(self):$/;"	m	class:base
+inversion	workflow/inversion.py	/^class inversion(base):$/;"	c
+io	solver/base.py	/^    def io(self):$/;"	m	class:base
+isexe	tools/unix.py	/^    def isexe(file):$/;"	f	function:which
+iterable	tools/tools.py	/^def iterable(arg):$/;"	f
+job_array_args	system/pbs_lg.py	/^    def job_array_args(self, hosts):$/;"	m	class:pbs_lg
+job_array_cmd	system/pbs_lg.py	/^    def job_array_cmd(self, classname, method, hosts):$/;"	m	class:pbs_lg
+job_array_status	system/pbs_lg.py	/^    def job_array_status(self, classname, method, jobs):$/;"	m	class:pbs_lg
+job_array_status	system/slurm_lg.py	/^    def job_array_status(self, classname, method, jobs):$/;"	m	class:slurm_lg
+job_id_list	system/lsf_lg.py	/^    def job_id_list(self, stdout):$/;"	m	class:lsf_lg
+job_id_list	system/slurm_lg.py	/^    def job_id_list(self, stdout, ntask):$/;"	m	class:slurm_lg
+job_status	system/lsf_lg.py	/^    def job_status(self, classname, method, jobs):$/;"	m	class:lsf_lg
+job_status	system/slurm_lg.py	/^    def job_status(self, job):$/;"	m	class:slurm_lg
+kernel_databases	solver/base.py	/^    def kernel_databases(self):$/;"	m	class:base
+kernel_databases	solver/specfem2d.py	/^    def kernel_databases(self):$/;"	m	class:specfem2d
+kernel_databases	solver/specfem3d.py	/^    def kernel_databases(self):$/;"	m	class:specfem3d
+kernel_databases	solver/specfem3d_globe.py	/^    def kernel_databases(self):$/;"	m	class:specfem3d_globe
+line_search	workflow/inversion.py	/^    def line_search(self):$/;"	m	class:inversion
+line_search	workflow/test_optimize.py	/^    def line_search(cls):$/;"	m	class:test_optimize
+ln	tools/unix.py	/^def ln(src, dst):$/;"	f
+load	config.py	/^def load(path):$/;"	f
+load	optimize/base.py	/^    def load(self, filename):$/;"	m	class:base
+load	solver/base.py	/^    def load(self, path, parameters=[], prefix='', suffix=''):$/;"	m	class:base
+load	solver/specfem3d_globe.py	/^    def load(self, path, prefix='reg1_', suffix='', verbose=False):$/;"	m	class:specfem3d_globe
+load_weights	preprocess/double_difference.py	/^    def load_weights(self):$/;"	m	class:double_difference
+loadjson	tools/tools.py	/^def loadjson(filename):$/;"	f
+loadnpy	tools/array.py	/^def loadnpy(filename):$/;"	f
+loadnpy	tools/tools.py	/^def loadnpy(filename):$/;"	f
+loadobj	tools/tools.py	/^def loadobj(filename):$/;"	f
+loadpy	tools/tools.py	/^def loadpy(filename):$/;"	f
+loadtxt	optimize/base.py	/^    def loadtxt(self, filename):$/;"	m	class:base
+loadtxt	tools/tools.py	/^def loadtxt(filename):$/;"	f
+loadyaml	tools/tools.py	/^def loadyaml(filename):$/;"	f
+ls	tools/unix.py	/^def ls(path):$/;"	f
+lsf_lg	system/lsf_lg.py	/^class lsf_lg(custom_import('system', 'base')):$/;"	c
+lsq2	tools/math.py	/^def lsq2(x, f):$/;"	f
+main	workflow/base.py	/^    def main(self):$/;"	m	class:base
+main	workflow/inversion.py	/^    def main(self):$/;"	m	class:inversion
+main	workflow/migration.py	/^    def main(self):$/;"	m	class:migration
+main	workflow/test_adjoint.py	/^    def main(self):$/;"	m	class:test_adjoint
+main	workflow/test_forward.py	/^    def main(self):$/;"	m	class:test_forward
+main	workflow/test_optimize.py	/^    def main(cls):$/;"	m	class:test_optimize
+main	workflow/test_postprocess.py	/^    def main(self):$/;"	m	class:test_postprocess
+main	workflow/test_preprocess.py	/^    def main(self):$/;"	m	class:test_preprocess
+main	workflow/test_system.py	/^    def main(self):$/;"	m	class:test_system
+mask	tools/signal.py	/^def mask(slope, const, offset, time_scheme, length=400):$/;"	f
+merge	solver/base.py	/^    def merge(self, model, parameters=[]):$/;"	m	class:base
+mesh2grid	tools/array.py	/^def mesh2grid(v, mesh):$/;"	f
+mesh_properties	solver/base.py	/^    def mesh_properties(self):$/;"	m	class:base
+meshsmooth	tools/array.py	/^def meshsmooth(v, mesh, span):$/;"	f
+migration	workflow/migration.py	/^class migration(base):$/;"	c
+migration	workflow/test_postprocess.py	/^migration = custom_import('workflow','migration')()$/;"	v
+mkdir	tools/unix.py	/^def mkdir(dirs):$/;"	f
+model_databases	solver/base.py	/^    def model_databases(self):$/;"	m	class:base
+model_databases	solver/specfem2d.py	/^    def model_databases(self):$/;"	m	class:specfem2d
+model_databases	solver/specfem3d.py	/^    def model_databases(self):$/;"	m	class:specfem3d
+model_databases	solver/specfem3d_globe.py	/^    def model_databases(self):$/;"	m	class:specfem3d_globe
+module_exists	tools/tools.py	/^def module_exists(name):$/;"	f
+mpiexec	system/lsf_lg.py	/^    def mpiexec(self):$/;"	m	class:lsf_lg
+mpiexec	system/pbs_lg.py	/^    def mpiexec(self):$/;"	m	class:pbs_lg
+mpiexec	system/pbs_sm.py	/^    def mpiexec(self):$/;"	m	class:pbs_lg
+mpiexec	system/serial.py	/^    def mpiexec(self):$/;"	m	class:serial
+mpiexec	system/slurm_lg.py	/^    def mpiexec(self):$/;"	m	class:slurm_lg
+mpiexec	system/slurm_sm.py	/^    def mpiexec(self):$/;"	m	class:slurm_sm
+mread	plugins/solver_io/adios.py	/^def mread(path, parameters, iproc, prefix='', suffix=''):$/;"	f
+multicore	system/multicore.py	/^class multicore(custom_import('system', 'serial')):$/;"	c
+multithreaded	system/multithreaded.py	/^class multithreaded(custom_import('system', 'multicore')):$/;"	c
+mute_early_arrivals	tools/signal.py	/^def mute_early_arrivals(traces, slope, const, time_scheme, s_coords, r_coords):$/;"	f
+mute_late_arrivals	tools/signal.py	/^def mute_late_arrivals(traces, slope, const, time_scheme, s_coords, r_coords):$/;"	f
+mute_long_offsets	tools/signal.py	/^def mute_long_offsets(traces, dist, s_coords, r_coords):$/;"	f
+mute_short_offsets	tools/signal.py	/^def mute_short_offsets(traces, dist, s_coords, r_coords):$/;"	f
+mv	tools/unix.py	/^def mv(src='', dst=''):$/;"	f
+nabla	tools/math.py	/^def nabla(V, h=[]):$/;"	f
+nabla2	tools/math.py	/^def nabla2(V, h=[]):$/;"	f
+names	config.py	/^names = []$/;"	v
+newline	tools/seismic.py	/^    def newline(self):$/;"	m	class:StepWriter
+nproc	tools/tools.py	/^def nproc():$/;"	f
+optimize	workflow/inversion.py	/^optimize = sys.modules['seisflows_optimize']$/;"	v
+optimize	workflow/test_optimize.py	/^optimize = sys.modules['seisflows_optimize']$/;"	v
+optimize	workflow/thrifty_inversion.py	/^optimize = sys.modules['seisflows_optimize']$/;"	v
+package_exists	tools/tools.py	/^def package_exists(name):$/;"	f
+parameters	solver/base.py	/^    parameters = []$/;"	v	class:base
+parameters	solver/specfem2d.py	/^        parameters = []$/;"	v	class:specfem2d
+parameters	solver/specfem3d_globe.py	/^        parameters = []$/;"	v	class:specfem3d_globe
+pbs_lg	system/pbs_lg.py	/^class pbs_lg(custom_import('system', 'base')):$/;"	c
+pbs_lg	system/pbs_sm.py	/^class pbs_lg(custom_import('system', 'base')):$/;"	c
+pkgpath	tools/tools.py	/^def pkgpath(name):$/;"	f
+plot_gll	tools/graphics.py	/^def plot_gll(x, y, z):$/;"	f
+plot_section	tools/graphics.py	/^def plot_section(stream, ax=None, cmap='seismic', clip=100, title='', x_interval=1.0, y_interval=1.0):$/;"	f
+plot_vector	tools/graphics.py	/^def plot_vector(t, v, xlabel='', ylabel='', title=''):$/;"	f
+pollak_ribere	plugins/optimize/NLCG.py	/^def pollak_ribere(g_new, g_old, precond=lambda x : x):$/;"	f
+polyfit2	tools/math.py	/^def polyfit2(x, f):$/;"	f
+postprocess	workflow/inversion.py	/^postprocess = sys.modules['seisflows_postprocess']$/;"	v
+postprocess	workflow/migration.py	/^postprocess = sys.modules['seisflows_postprocess']$/;"	v
+postprocess	workflow/test_postprocess.py	/^postprocess = sys.modules['seisflows_postprocess']$/;"	v
+prepare_eval_grad	preprocess/base.py	/^    def prepare_eval_grad(self, path='.'):$/;"	m	class:base
+prepare_model	workflow/migration.py	/^    def prepare_model(self):$/;"	m	class:migration
+prepare_model	workflow/test_adjoint.py	/^    def prepare_model(self):$/;"	m	class:test_adjoint
+preprocess	solver/base.py	/^preprocess = sys.modules['seisflows_preprocess']$/;"	v
+preprocess	solver/specfem2d.py	/^preprocess = sys.modules['seisflows_preprocess']$/;"	v
+preprocess	solver/specfem3d.py	/^preprocess = sys.modules['seisflows_preprocess']$/;"	v
+preprocess	workflow/inversion.py	/^preprocess = sys.modules['seisflows_preprocess']$/;"	v
+preprocess	workflow/migration.py	/^preprocess = sys.modules['seisflows_preprocess']$/;"	v
+preprocess	workflow/test_adjoint.py	/^preprocess = sys.modules['seisflows_preprocess']$/;"	v
+preprocess	workflow/test_preprocess.py	/^preprocess = sys.modules['seisflows_preprocess']$/;"	v
+process_kernels	postprocess/base.py	/^    def process_kernels(self, path='', parameters=[]):$/;"	m	class:base
+progress	system/serial.py	/^    def progress(self, taskid):$/;"	m	class:serial
+read	plugins/solver_io/adios.py	/^def read(path, parameter, iproc):$/;"	f
+read_slice	plugins/solver_io/fortran_binary.py	/^def read_slice(path, parameters, iproc):$/;"	f
+rename	tools/unix.py	/^def rename(old, new, names):$/;"	f
+rename_data	solver/base.py	/^    def rename_data(self, path):$/;"	m	class:base
+rename_data	solver/specfem3d.py	/^    def rename_data(self):$/;"	m	class:specfem3d
+rename_data	solver/specfem3d_globe.py	/^    def rename_data(self):$/;"	m	class:specfem3d_globe
+rename_kernels	solver/base.py	/^    def rename_kernels(self):$/;"	m	class:base
+restart	optimize/LBFGS.py	/^    def restart(self):$/;"	m	class:LBFGS
+restart	optimize/NLCG.py	/^    def restart(self):$/;"	m	class:NLCG
+restart	optimize/base.py	/^    def restart(self):$/;"	m	class:base
+restart	optimize/steepest_descent.py	/^    def restart(self):$/;"	m	class:steepest_descent
+restart	plugins/optimize/LBFGS.py	/^    def restart(self):$/;"	m	class:LBFGS
+restart	plugins/optimize/NLCG.py	/^    def restart(self):$/;"	m	class:NLCG
+restarted	optimize/steepest_descent.py	/^    restarted = False$/;"	v	class:steepest_descent
+retry_status	optimize/base.py	/^    def retry_status(self):$/;"	m	class:base
+ricker	plugins/wavelets.py	/^def ricker(nt, dt, fp):$/;"	f
+rm	tools/unix.py	/^def rm(path=''):$/;"	f
+run	system/base.py	/^    def run(self, classname, method, *args, **kwargs):$/;"	m	class:base
+run	system/lsf_lg.py	/^    def run(self, classname, method, hosts='all', **kwargs):$/;"	m	class:lsf_lg
+run	system/multicore.py	/^    def run(self, classname, method, *args, **kwargs):$/;"	m	class:multicore
+run	system/pbs_lg.py	/^    def run(self, classname, method, hosts='all', **kwargs):$/;"	m	class:pbs_lg
+run	system/pbs_sm.py	/^    def run(self, classname, method, hosts='all', **kwargs):$/;"	m	class:pbs_lg
+run	system/serial.py	/^    def run(self, classname, method, hosts='all', **kwargs):$/;"	m	class:serial
+run	system/slurm_lg.py	/^    def run(self, classname, method, *args, **kwargs):$/;"	m	class:slurm_lg
+run	system/slurm_sm.py	/^    def run(self, classname, method, *args, **kwargs):$/;"	m	class:slurm_sm
+run_single	system/base.py	/^    def run_single(self, classname, method, *args, **kwargs):$/;"	m	class:base
+run_single	system/lsf_lg.py	/^    def run_single(self, classname, method, hosts='all', **kwargs):$/;"	m	class:lsf_lg
+run_single	system/multicore.py	/^    def run_single(self, classname, method, *args, **kwargs):$/;"	m	class:multicore
+run_single	system/serial.py	/^    def run_single(self, classname, method, *args, **kwargs):$/;"	m	class:serial
+run_single	system/slurm_lg.py	/^    def run_single(self, classname, method, *args, **kwargs):$/;"	m	class:slurm_lg
+run_single	system/slurm_sm.py	/^    def run_single(self, classname, method, *args, **kwargs):$/;"	m	class:slurm_sm
+save	config.py	/^def save():$/;"	f
+save	optimize/base.py	/^    def save(self, filename, array):$/;"	m	class:base
+save	postprocess/base.py	/^    def save(self, g, path='', parameters=[], backup=None):$/;"	m	class:base
+save	solver/base.py	/^    def save(self, dict, path, parameters=['vp','vs','rho'], prefix='', suffix=''):$/;"	m	class:base
+save	solver/specfem3d_globe.py	/^    def save(self, path, model, prefix='reg1_', suffix=''):$/;"	m	class:specfem3d_globe
+save	workflow/test_preprocess.py	/^    def save(self, data, filename):$/;"	m	class:test_preprocess
+save_gradient	workflow/inversion.py	/^    def save_gradient(self):$/;"	m	class:inversion
+save_kernels	workflow/inversion.py	/^    def save_kernels(self):$/;"	m	class:inversion
+save_kernels	workflow/migration.py	/^    def save_kernels(self):$/;"	m	class:migration
+save_kernels_sum	workflow/migration.py	/^    def save_kernels_sum(self):$/;"	m	class:migration
+save_kwargs	system/lsf_lg.py	/^    def save_kwargs(self, classname, method, kwargs):$/;"	m	class:lsf_lg
+save_kwargs	system/multicore.py	/^    def save_kwargs(self, classname, method, kwargs):$/;"	m	class:multicore
+save_kwargs	system/pbs_lg.py	/^    def save_kwargs(self, classname, method, kwargs):$/;"	m	class:pbs_lg
+save_kwargs	system/pbs_sm.py	/^    def save_kwargs(self, classname, method, kwargs):$/;"	m	class:pbs_lg
+save_kwargs	system/slurm_sm.py	/^    def save_kwargs(self, classname, method, kwargs):$/;"	m	class:slurm_sm
+save_model	workflow/inversion.py	/^    def save_model(self):$/;"	m	class:inversion
+save_residuals	workflow/inversion.py	/^    def save_residuals(self):$/;"	m	class:inversion
+save_traces	workflow/inversion.py	/^    def save_traces(self):$/;"	m	class:inversion
+save_traces	workflow/migration.py	/^    def save_traces(self):$/;"	m	class:migration
+savejson	tools/tools.py	/^def savejson(filename, obj):$/;"	f
+savenpy	tools/array.py	/^def savenpy(filename, v):$/;"	f
+savenpy	tools/tools.py	/^def savenpy(filename, v):$/;"	f
+saveobj	tools/tools.py	/^def saveobj(filename, obj):$/;"	f
+savetxt	optimize/base.py	/^    def savetxt(self, filename, scalar):$/;"	m	class:base
+savetxt	tools/tools.py	/^def savetxt(filename, v):$/;"	f
+sconvolve	tools/signal.py	/^def sconvolve(s, h, w, inplace=True):$/;"	f
+search_history	plugins/line_search/base.py	/^    def search_history(self, sort=True):$/;"	m	class:Base
+select	tools/unix.py	/^def select(items, prompt=''):$/;"	f
+serial	system/serial.py	/^class serial(custom_import('system', 'base')):$/;"	c
+setpar	tools/seismic.py	/^def setpar(key, val, filename='DATA\/Par_file', path='.', sep='='):$/;"	f
+setup	optimize/LBFGS.py	/^    def setup(self):$/;"	m	class:LBFGS
+setup	optimize/NLCG.py	/^    def setup(self):$/;"	m	class:NLCG
+setup	optimize/base.py	/^    def setup(self):$/;"	m	class:base
+setup	optimize/steepest_descent.py	/^    def setup(self):$/;"	m	class:steepest_descent
+setup	postprocess/base.py	/^    def setup(self):$/;"	m	class:base
+setup	preprocess/base.py	/^    def setup(self):$/;"	m	class:base
+setup	solver/base.py	/^    def setup(self):$/;"	m	class:base
+setup	workflow/inversion.py	/^    def setup(self):$/;"	m	class:inversion
+setup	workflow/test_optimize.py	/^    def setup(cls):$/;"	m	class:test_optimize
+shift	preprocess/double_difference.py	/^    def shift(self, v, it):$/;"	m	class:double_difference
+slurm_lg	system/slurm_lg.py	/^class slurm_lg(custom_import('system', 'base')):$/;"	c
+slurm_sm	system/slurm_sm.py	/^class slurm_sm(custom_import('system', 'base')):$/;"	c
+smooth	solver/base.py	/^    def smooth(self, input_path='', output_path='', parameters=[], span=0.):$/;"	m	class:base
+smooth	solver/specfem2d.py	/^    smooth = staticmethod(smooth_legacy)$/;"	v	class:specfem2d
+smooth_legacy	plugins/solver/specfem2d.py	/^def smooth_legacy(input_path='', output_path='', parameters=[], span=0.):$/;"	f
+solver	postprocess/base.py	/^solver = sys.modules['seisflows_solver']$/;"	v
+solver	workflow/inversion.py	/^solver = sys.modules['seisflows_solver']$/;"	v
+solver	workflow/migration.py	/^solver = sys.modules['seisflows_solver']$/;"	v
+solver	workflow/test_adjoint.py	/^solver = sys.modules['seisflows_solver']$/;"	v
+solver	workflow/test_forward.py	/^solver = sys.modules['seisflows_solver']$/;"	v
+solver	workflow/test_postprocess.py	/^solver = sys.modules['seisflows_solver']$/;"	v
+sortrows	tools/array.py	/^def sortrows(a, return_index=False, return_inverse=False):$/;"	f
+source_name	solver/base.py	/^    def source_name(self):$/;"	m	class:base
+source_names	solver/base.py	/^    def source_names(self):$/;"	m	class:base
+source_prefix	solver/base.py	/^    def source_prefix(self):$/;"	m	class:base
+source_prefix	solver/specfem2d.py	/^    def source_prefix(self):$/;"	m	class:specfem2d
+source_prefix	solver/specfem3d.py	/^    def source_prefix(self):$/;"	m	class:specfem3d
+source_prefix	solver/specfem3d_globe.py	/^    def source_prefix(self):$/;"	m	class:specfem3d_globe
+specfem2d	solver/specfem2d.py	/^class specfem2d(custom_import('solver', 'base')):$/;"	c
+specfem3d	solver/specfem3d.py	/^class specfem3d(custom_import('solver', 'base')):$/;"	c
+specfem3d_globe	solver/specfem3d_globe.py	/^class specfem3d_globe(custom_import('solver', 'base')):$/;"	c
+split	solver/base.py	/^    def split(self, m, parameters=[]):$/;"	m	class:base
+stack	tools/array.py	/^def stack(*args):$/;"	f
+status	workflow/test_optimize.py	/^    def status(cls, m_new, m_old):$/;"	m	class:test_optimize
+status	workflow/thrifty_inversion.py	/^    status=0$/;"	v	class:thrifty_inversion
+steepest_descent	optimize/steepest_descent.py	/^class steepest_descent(custom_import('optimize', 'base')):$/;"	c
+su	plugins/readers.py	/^def su(path, filename):$/;"	f
+su	plugins/writers.py	/^def su(d, path, filename):$/;"	f
+submit	system/base.py	/^    def submit(self):$/;"	m	class:base
+submit	system/lsf_lg.py	/^    def submit(self, workflow):$/;"	m	class:lsf_lg
+submit	system/pbs_lg.py	/^    def submit(self, workflow):$/;"	m	class:pbs_lg
+submit	system/pbs_sm.py	/^    def submit(self, workflow):$/;"	m	class:pbs_lg
+submit	system/serial.py	/^    def submit(self, workflow):$/;"	m	class:serial
+submit	system/slurm_lg.py	/^    def submit(self, workflow):$/;"	m	class:slurm_lg
+submit	system/slurm_sm.py	/^    def submit(self, workflow):$/;"	m	class:slurm_sm
+submit	system/tiger_lg.py	/^    def submit(self, *args, **kwargs):$/;"	m	class:tiger_lg
+submit	system/tiger_sm.py	/^    def submit(self, *args, **kwargs):$/;"	m	class:tiger_sm
+submit_job_array	system/pbs_lg.py	/^    def submit_job_array(self, classname, method, hosts='all'):$/;"	m	class:pbs_lg
+sum_residuals	preprocess/base.py	/^    def sum_residuals(self, files):$/;"	m	class:base
+sum_residuals	preprocess/double_difference.py	/^    def sum_residuals(self):$/;"	m	class:double_difference
+system	postprocess/base.py	/^system = sys.modules['seisflows_system']$/;"	v
+system	preprocess/double_difference.py	/^system = sys.modules['seisflows_system']$/;"	v
+system	solver/base.py	/^system = sys.modules['seisflows_system']$/;"	v
+system	solver/specfem2d.py	/^system = sys.modules['seisflows_system']$/;"	v
+system	solver/specfem3d.py	/^system = sys.modules['seisflows_system']$/;"	v
+system	system/wrappers/submit	/^    system = sys.modules['seisflows_system']$/;"	v
+system	workflow/inversion.py	/^system = sys.modules['seisflows_system']$/;"	v
+system	workflow/migration.py	/^system = sys.modules['seisflows_system']$/;"	v
+system	workflow/test_adjoint.py	/^system = sys.modules['seisflows_system']$/;"	v
+system	workflow/test_forward.py	/^system = sys.modules['seisflows_system']$/;"	v
+system	workflow/test_system.py	/^system = sys.modules['seisflows_system']$/;"	v
+taskid	solver/base.py	/^    def taskid(self):$/;"	m	class:base
+taskid	system/base.py	/^    def taskid(self):$/;"	m	class:base
+taskid	system/lsf_lg.py	/^    def taskid(self):$/;"	m	class:lsf_lg
+taskid	system/pbs_lg.py	/^    def taskid(self):$/;"	m	class:pbs_lg
+taskid	system/pbs_sm.py	/^    def taskid(self):$/;"	m	class:pbs_lg
+taskid	system/serial.py	/^    def taskid(self):$/;"	m	class:serial
+taskid	system/slurm_lg.py	/^    def taskid(self):$/;"	m	class:slurm_lg
+taskid	system/slurm_sm.py	/^    def taskid(self):$/;"	m	class:slurm_sm
+test_adjoint	workflow/test_adjoint.py	/^class test_adjoint(base):$/;"	c
+test_adjoint	workflow/test_preprocess.py	/^    def test_adjoint(self, dat, syn):$/;"	m	class:test_preprocess
+test_filter	workflow/test_preprocess.py	/^    def test_filter(self, dat):$/;"	m	class:test_preprocess
+test_forward	workflow/test_forward.py	/^class test_forward(base):$/;"	c
+test_misfit	workflow/test_preprocess.py	/^    def test_misfit(self, dat, syn):$/;"	m	class:test_preprocess
+test_mute	workflow/test_preprocess.py	/^    def test_mute(self, dat):$/;"	m	class:test_preprocess
+test_normalize	workflow/test_preprocess.py	/^    def test_normalize(self, dat):$/;"	m	class:test_preprocess
+test_optimize	workflow/test_optimize.py	/^class test_optimize(base):$/;"	c
+test_postprocess	workflow/test_postprocess.py	/^class test_postprocess(base):$/;"	c
+test_preprocess	workflow/test_preprocess.py	/^class test_preprocess(base):$/;"	c
+test_reader	workflow/test_preprocess.py	/^    def test_reader(self):$/;"	m	class:test_preprocess
+test_system	workflow/test_system.py	/^class test_system(base):$/;"	c
+test_writer	workflow/test_preprocess.py	/^    def test_writer(self, data):$/;"	m	class:test_preprocess
+thrifty_inversion	workflow/thrifty_inversion.py	/^class thrifty_inversion(custom_import('workflow', 'inversion')):$/;"	c
+tiger_lg	system/tiger_lg.py	/^class tiger_lg(custom_import('system', 'slurm_lg')):$/;"	c
+tiger_sm	system/tiger_sm.py	/^class tiger_sm(custom_import('system', 'slurm_sm')):$/;"	c
+tilde_expand	config.py	/^def tilde_expand(mydict):$/;"	f
+timestamp	system/lsf_lg.py	/^    def timestamp(self):$/;"	m	class:lsf_lg
+timestamp	tools/tools.py	/^def timestamp():$/;"	f
+touch	tools/unix.py	/^def touch(filename, times=None):$/;"	f
+tukeywin	tools/signal.py	/^def tukeywin(nt, imin, imax, alpha=0.05):$/;"	f
+tv	tools/math.py	/^def tv(Z, h=[], epsilon=1.e-6):$/;"	f
+uniquerows	tools/array.py	/^def uniquerows(a, sort_array=False, return_index=False):$/;"	f
+update	config.py	/^    def update(self, newdict):$/;"	m	class:Dict
+update	plugins/line_search/base.py	/^    def update(self, step_len, func_val):$/;"	m	class:Base
+update	plugins/optimize/LBFGS.py	/^    def update(self):$/;"	m	class:LBFGS
+update	plugins/optimize/LCG.py	/^    def update(self, ap):$/;"	m	class:LCG
+update	tools/seismic.py	/^    def update(self, keys, vals):$/;"	m	class:Minmax
+update_search	optimize/base.py	/^    def update_search(self):$/;"	m	class:base
+update_status	workflow/thrifty_inversion.py	/^    def update_status(self):$/;"	m	class:thrifty_inversion
+which	tools/unix.py	/^def which(name):$/;"	f
+workflow	system/wrappers/submit	/^    workflow = sys.modules['seisflows_workflow']$/;"	v
+write	plugins/solver_io/adios.py	/^def write(v, path, parameter, iproc):$/;"	f
+write_adjoint_traces	preprocess/base.py	/^    def write_adjoint_traces(self, path, syn, obs, channel):$/;"	m	class:base
+write_adjoint_traces	preprocess/double_difference.py	/^    def write_adjoint_traces(self, path, syn, dat, channel):$/;"	m	class:double_difference
+write_adjoint_traces_dispersion	preprocess/base.py	/^    def write_adjoint_traces_dispersion(self,syn,disp_obs,disp_syn,nx,nfmin,df,nfmax,nt,path, channel):$/;"	m	class:base
+write_gradient	postprocess/base.py	/^    def write_gradient(self, path):$/;"	m	class:base
+write_gradient	workflow/inversion.py	/^    def write_gradient(self, path='', suffix=''):$/;"	m	class:inversion
+write_header	tools/seismic.py	/^    def write_header(self):$/;"	m	class:StepWriter
+write_misfit	workflow/inversion.py	/^    def write_misfit(self, path='', suffix=''):$/;"	m	class:inversion
+write_model	workflow/inversion.py	/^    def write_model(self, path='', suffix=''):$/;"	m	class:inversion
+write_parameters	plugins/solver/specfem3d_globe.py	/^def write_parameters(par, version):$/;"	f
+write_parameters	solver/specfem3d.py	/^    def write_parameters(self):$/;"	m	class:specfem3d
+write_receivers	plugins/solver/specfem2d.py	/^def write_receivers(coords, path='.'):$/;"	f
+write_receivers	plugins/solver/specfem3d.py	/^def write_receivers(h):$/;"	f
+write_receivers	plugins/solver/specfem3d_globe.py	/^def write_receivers(h):$/;"	f
+write_receivers	solver/specfem3d.py	/^    def write_receivers(self):$/;"	m	class:specfem3d
+write_residuals	preprocess/base.py	/^    def write_residuals(self, path, syn, obs):$/;"	m	class:base
+write_residuals	preprocess/double_difference.py	/^    def write_residuals(self, path, syn, dat):$/;"	m	class:double_difference
+write_residuals_dispersion	preprocess/base.py	/^    def write_residuals_dispersion(self, path, disp_syn, disp_obs, nfcount,nangle):$/;"	m	class:base
+write_slice	plugins/solver_io/fortran_binary.py	/^def write_slice(data, path, parameters, iproc):$/;"	f
+write_sources	plugins/solver/specfem2d.py	/^def write_sources(coords, path='.', ws=1., suffix=''):$/;"	f
+write_sources	plugins/solver/specfem3d.py	/^def write_sources(PAR, h, path='.'):$/;"	f
+write_sources	plugins/solver/specfem3d_globe.py	/^def write_sources(PAR, h, path='.'):$/;"	f
+write_sources	solver/specfem3d.py	/^    def write_sources(self):$/;"	m	class:specfem3d

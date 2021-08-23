@@ -1,0 +1,14 @@
+
+WORKFLOW='test_optimize'
+SYSTEM='serial'
+OPTIMIZE='LBFGS'
+#STEPMAX=10
+BEGIN=1              
+END=200
+
+STEPMAX=10              # maximum trial steps !!!!not used
+STEPTHRESH=0.1          # step length safeguard !!!!!!not used
+STEPCOUNTMAX=5       #maximum number of trial steps
+STEPLENINIT=0.02     #initial step length as fraction of current model
+STEPLENMAX=0.5
+

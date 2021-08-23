@@ -1,0 +1,5 @@
+
+DATA = '/home/zhaolunl/Documents/03_codes/03_specfem/seisflows-master/tests/setup/test_preprocess/data.su'
+
+SYNTHETICS = '/home/zhaolunl/Documents/03_codes/03_specfem/seisflows-master/tests/setup/test_preprocess/synthetics.su'
+

@@ -1,0 +1,15 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+scratch
+output
+output.optim
+output.stats
+.atdbg_atlib
+my_workspace.code-workspace
+my_workspace2.code-workspace
+remove.sh
+.vscode
+*.su
