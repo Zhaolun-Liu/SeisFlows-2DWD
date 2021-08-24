@@ -16,7 +16,7 @@ I provide `dispersion.py` in `seisflows/preprocess/` which is to calculated the 
 Prerequisite
 ------------
 - [SPECFEM2D](https://github.com/geodynamics/specfem2d)
-- [Seisflow]
+- Seisflow
 - Python 2.7
 
 Installation
@@ -32,7 +32,7 @@ Installation
 References
 ----------
 
-If find this package useful, please cite:
+If you find this package useful, please cite:
 
 `Zhaolun Liu, Lianjie Huang, (2019), "Multiscale and layer-stripping wave-equation dispersion inversion of Rayleigh waves", Geophysical Journal International 218(3):1807-1821, https://doi.org/10.1093/gji/ggz215`
 
