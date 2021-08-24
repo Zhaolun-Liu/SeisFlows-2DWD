@@ -1,5 +1,11 @@
-SeisFlow-2DWD
-=============
+2D Wave-equation Dispersion Inversion Lab (2DWD)
+=================================================
+
+ ![2D Checkerboard Test Results by WD](./result.png)
+
+
+ Introduction
+ ------------
 
 2D wave-equation dispersion inversion of surface waves (WD) is implemented by using [SeisFlows](https://github.com/rmodrak/seisflows)+[SPECFEM 2D](https://github.com/geodynamics/specfem2d).
 
@@ -7,28 +13,20 @@ This is the updated version of SeisFlows for 2D wave-equation dispersion inversi
 
 I provide "dispersion.py" in "seisflows/preprocess/" which is to calculated the FK spectrum and misfit function and create the adjoint source for 2D WD.
 
-This is a test ![](./result.png)
+Prerequisite
+------------
+- [SPECFEM2D](https://github.com/geodynamics/specfem2d)
+- [Seisflow]
+- Python 2.7
 
-<img src="result.png"
-     alt="Markdown Monster icon"
-     style="float: left; margin-right: 10px;"/>
+Installation
+------------
+1. Follow this [instruction](https://seisflows.readthedocs.io/en/latest/instructions_remote.html) to install Seisflow-2DWD.
+2. install [SPECFEM2D](https://github.com/geodynamics/specfem2d)
+3. Set up checkerboard test in `EXAMPLE/checker_2dwd`
+    - Make sure that all paths specified in paths.py are correct.
+    - Run checkerboard test:``sfclean;sfsubmit``
 
-
-
-
-About SeisFlows
-----------
-SeisFlows is an open source seismic inversion package that
-
-- Delivers a customizable waveform inversion workflow
-
-- Provides a framework for research in regional, global, and exploration seismology
-
-Usage information are available at [readthedocs.org](http://seisflows.readthedocs.org/en/latest/). Two of the smaller examples are now being hosted from Ryan's GoogleDrive
-
-[2D acoustic checkerboard](https://drive.google.com/file/d/1ow3LTYEvNn55yGeIV56sqaW-wXC0MtYW/view)
-
-[3D elastic checkerboard](https://drive.google.com/file/d/1fm1pg0QzGW721BHN2tD6lb9FWRLMl6_z/view) 
 
 
 References
