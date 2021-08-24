@@ -11,7 +11,7 @@
 
 This is the updated version of SeisFlows for 2D wave-equation dispersion inversion of surface waves
 
-I provide "dispersion.py" in "seisflows/preprocess/" which is to calculated the FK spectrum and misfit function and create the adjoint source for 2D WD.
+I provide `dispersion.py` in `seisflows/preprocess/` which is to calculated the FK spectrum and misfit function and create the adjoint source for 2D WD.
 
 Prerequisite
 ------------
