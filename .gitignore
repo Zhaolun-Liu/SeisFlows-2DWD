@@ -13,3 +13,5 @@ my_workspace2.code-workspace
 remove.sh
 .vscode
 *.su
+build
+*.svg

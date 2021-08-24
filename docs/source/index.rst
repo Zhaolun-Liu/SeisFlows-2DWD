@@ -3,11 +3,11 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to SeisFlow-2DWD's documentation!
+2D Wave-equation dispersion inversion lab
 =========================================
 
-Background
-----------
+Introduction
+------------
 The most sophisticated waveform inversion packages are proprietary codes developed by oil and gas companies and geophysical service providers.  Usually, such packages are maintained by software engineering teams and not available to independent researchers.
 
 Outside of industry, a number of open source waveform inversion packages have been developed, mainly in geophysics but also in nondestructive testing and other areas. Many early waveform inversion packages used simple frequency-domain formulations, which were well-suited for research but not readily scalable.  
@@ -18,7 +18,19 @@ With SeisFlows, wave simulations must be performed using an external software pa
 
 SeisFlows provides an automated nonlinear optimization workflow, with the option to carry out multiple model upates without stopping or to stop between updates for quality control checks.
 
+.. figure:: ./imag/result.png
+   :align: center
 
+   *Inverted S-wave speed model with maximum offset of 24 m (No precondition)*
+
+
+Prerequisite
+------------
+thest
+
+Procedure
+------------
+the~
 
 .. toctree::
    :maxdepth: 2
