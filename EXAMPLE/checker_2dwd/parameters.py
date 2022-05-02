@@ -68,6 +68,6 @@ F0=30                # dominant frequency
 
 
 # SYSTEM
-NTASK=20                # must satisfy 1 <= NTASK <= NSRC
+NTASK=1                # must satisfy 1 <= NTASK <= NSRC
 NPROC=1                 # processors per task
 

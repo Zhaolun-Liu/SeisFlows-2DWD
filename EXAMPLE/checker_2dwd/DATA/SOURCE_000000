@@ -12,3 +12,5 @@ anglesource = 0.0
 Mzz = 1.0
 Mxz = 0.0
 factor = 10000000000.0
+vx     =0
+vz     =0
