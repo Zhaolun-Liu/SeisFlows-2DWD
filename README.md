@@ -7,7 +7,7 @@
  Introduction
  ------------
 
-2D wave-equation dispersion inversion of surface waves (WD) is implemented by using [SeisFlows](https://github.com/rmodrak/seisflows)+[SPECFEM 2D](https://github.com/geodynamics/specfem2d).
+2D wave-equation dispersion inversion of surface waves (WD) is implemented by using [SeisFlows](https://github.com/rmodrak/seisflows)+[SPECFEM 2D](https://github.com/Zhaolun-Liu/specfem2d/tree/patch-1).
 
 This is the updated version of SeisFlows for 2D wave-equation dispersion inversion of surface waves.
 
