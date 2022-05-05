@@ -15,14 +15,14 @@ I provide `dispersion.py` in `seisflows/preprocess/` which is to calculated the 
 
 Prerequisite
 ------------
-- [SPECFEM2D](https://github.com/geodynamics/specfem2d)
+- [SPECFEM2D](https://github.com/Zhaolun-Liu/specfem2d/tree/patch-1)
 - Seisflow
 - Python 2.7
 
 Installation
 ------------
 1. Follow this [instruction](https://seisflows.readthedocs.io/en/latest/instructions_remote.html) to install Seisflow-2DWD.
-2. install [SPECFEM2D](https://github.com/geodynamics/specfem2d)
+2. install [SPECFEM2D](https://github.com/Zhaolun-Liu/specfem2d/tree/patch-1)
 3. Set up checkerboard test in `EXAMPLE/checker_2dwd`
     - Make sure that all paths specified in paths.py are correct.
     - Run checkerboard test:``sfclean;sfsubmit``
