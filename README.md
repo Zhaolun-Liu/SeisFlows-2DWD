@@ -1,10 +1,11 @@
-# IMPORT UPDATE
-
-· PLEASE USE THE UPDATED VERSION https://zenodo.org/records/10069477
-
-· REAL DATA EXAMPLES BY BJ Eppinger: https://doi.org/10.5281/zenodo.10069415
+# IMPORT UPDATE 2025.8
 
 
+- PLEASE USE THE UPDATED VERSION https://zenodo.org/records/10069477
+
+- REAL DATA EXAMPLES BY BJ Eppinger: https://doi.org/10.5281/zenodo.10069415
+
+- the current reposity is no supported.
 
 
 2D Wave-equation Dispersion Inversion Lab (2DWD)
