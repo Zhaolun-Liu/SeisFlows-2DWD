@@ -1,3 +1,10 @@
+# IMPORT UPDATE
+· PLEASE USE THE UPDATED VERSION https://zenodo.org/records/10069477
+· REAL DATA EXAMPLES BY BJ Eppinger: https://doi.org/10.5281/zenodo.10069415
+
+
+
+
 2D Wave-equation Dispersion Inversion Lab (2DWD)
 =================================================
 
@@ -27,9 +34,6 @@ Installation
     - Make sure that all paths specified in paths.py are correct.
     - Run checkerboard test:``sfclean;sfsubmit``
 
-# IMPORT UPDATE
-PLEASE USE THE UPDATED VERSION https://zenodo.org/records/10069477
-REAL DATA EXAMPLES BY BJ Eppinger: https://doi.org/10.5281/zenodo.10069415
 
 References
 ----------
