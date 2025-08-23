@@ -27,12 +27,16 @@ Installation
     - Make sure that all paths specified in paths.py are correct.
     - Run checkerboard test:``sfclean;sfsubmit``
 
-
+# IMPORT UPDATE
+PLEASE USE THE UPDATED VERSION https://zenodo.org/records/10069477
+REAL DATA EXAMPLES BY BJ Eppinger: https://doi.org/10.5281/zenodo.10069415
 
 References
 ----------
 
 If you find this package useful, please cite:
+
+`BJ Eppinger, WS Holbrook, Z Liu, BA Flinchum, J Tromp, (2024), 2d near‐surface full‐waveform tomography reveals bedrock controls on critical zone architecture, Earth and Space Science, 11, e2023EA003248. https://doi.org/10.1029/2023EA003248`
 
 `Zhaolun Liu, Lianjie Huang, (2019), "Multiscale and layer-stripping wave-equation dispersion inversion of Rayleigh waves", Geophysical Journal International 218(3):1807-1821, https://doi.org/10.1093/gji/ggz215`
 
